@@ -24,7 +24,9 @@ function NavBar() {
       >
         Login
       </NavLink>
-      
+      <NavLink to="/profile:id" className="nav-link">
+     UserProfile
+      </NavLink>
     </nav>
   );
 };
